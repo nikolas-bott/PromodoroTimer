@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./css/styles.css" rel="stylesheet">
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
-    hallo
+    <div class="container">
+        <div class="timer-container">
+            <h2 class="heading-text"></h2>
+            <div class="display-timer">
+                <p class="para-display-timer">25:00</p>
+            </div>
+            <div class="timer-button">
+                <button class="start-timer btn"><p class="start-text">start</p></button>
+                <button class="stop-timer btn"><img src="reload.png"></button>
+            </div>
+            <div class="div-counters">
+                <p class="intervall-counter">Completed intervalls: &nbsp;</p>
+                <p class="intervall-counter-number">0</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
